@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "poc-2021-326309",
+  "private_key_id": "c4ab3d1bffa8f0b23e741bdd43c8f807c8d42207",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3abTODLEMBM7a\nx2WeLTa/3+XYnpNj82f+niVb7EG1r1KZQzxY0DyB+sH8AzN4CbddFhxEaek2b/RV\nIH6tjUhf4OOTt+VMFHl4xPy91MWqJnnBwIpvYxmBJp7nNumKVtwgsl9lrqfIImal\n6RZtBeUIkkhKO4vZeffH7lRANUNhvtytojUQEUh+xegKTDeDFYd9X/WZsjm6f4pJ\nDHWucWqkuVp1Ib77gMvjs8a0bFAC+KQ7uxqG2k3fp+t9Fk0hYsh6EeGJyDeLhtUQ\nu0VsnYaUxzN1IQr/hb0KzyoOBMSua1VgJsjh+AcRdMw0gwKdOckwkzB/ymrUx9iq\n3Z/Mc311AgMBAAECggEAFfJeIjG+lbOVlPQ7IpxCat89v5fqBxG/JeaCjedNTZI3\nDgPPmskAFIWO5Lr1U63F9SuKIl2R/GOVFwKWZen7+Q0N7kUY+OuSRXM80vI83MlR\n1G9XoVB4Ys3eQch+VYFjQb5WT/KAPSBwq/WiK1WDPG1UnR1W9KT1k0Tfa/dzoqRi\nIAQ4//96uO6Nebafp71m2i3E0RmcG2+ajMyuc7kCPdi4mIdKi+8e4zELxzUmYlW1\nb7rcaQWkoZ+eCc1IuhNyG0iJwkwvkubPXgibcLaFwcjlq2nRBN8PAnQ0chH+IKVU\nI6m09KUHv3g2DxNnszgKzJFKAG9mul/ruGX2u7ikQQKBgQDeHnTu8H0wIHth3yVP\n8mXuvBd3z80hIH1QCEux+hSauhW9nOjRaOCexnqsHyeiJNHM8gnNrAO/gwbgMoL5\nsT+dYCyVFybFYF6Po4ZdxSjZwNJKe0Y5oYNiLuHktxe38+vJTTO1JiR7Xrrm4n3h\nd0lKH6+7k9SVTPyZ48qIDPaWuQKBgQDTY9A0B+2VYlzbbYxR2DVruA6cxdVBsyeS\n1mvpn+EW/SZffzyMk/E9Kkh7AeEw/GCx5TPPLSqYT01J7EEb9n9Z49CiFIziTOZB\nOHQfTY2qZvea0HpfBd2qhzTt6HEftPdkm1gf/yPnepQby4qOSrSwy/CgaduddEBO\nXxQqblp+nQKBgQCHDa27uq3jnVxn3e4p9hDUX7lFOCxZgA+xodmklZIBojOl3soQ\nydwJrlTYYvkONaT7IA+l5nlA8MI1f4DzoTo0zk1NOY5xZG8alysTyNVV0VALyXih\ngfsIr8jZ8BmT19P9ydsuwcpc2PR7fitb89O0JiALxY70WKMeTsrOflNQwQKBgFRh\nE0qxn3Rxvv8Xy1sgIrLM1Yher7F6AeHrFUg8OW0jv51+/Hxg0XrI1gXDyk/zbeWU\nyAl6zfXeMcvAMn0m98650R3hdhse9woxrqiQHGxYjZ2OekpT3RekwMv2bLFrWxUd\nrR+YiIxtsZEmvjfuOhIYVgSyPKetL74Y1cPaKOVBAoGAa/PmyFo3XqO2xCcnB5Ff\nwBzQIbgnSNyRuGgbwELpGReWc+bMm7tQbFU7FVgPSev6dO6RiAL3iNVkNLsR0QUR\nfGp6hREU5ekrNRZYJkuVFOuhcEvINlDrTlP3FCRk4BgjIdVJvIdxrouOb6tO3Z8f\nS2cyPmaFev8yJGjtcROjoYY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "storage-for-health-records-bac@poc-2021-326309.iam.gserviceaccount.com",
+  "client_id": "101830394485193557729",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-for-health-records-bac%40poc-2021-326309.iam.gserviceaccount.com"
+}

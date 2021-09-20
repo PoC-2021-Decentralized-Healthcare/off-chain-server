@@ -6,9 +6,7 @@ const { Storage } = require("@google-cloud/storage");
 
 const storage_key_filename = process.cwd() + "/keys/google-cloud-key.json"
 
-const storage = new Storage({ keyFilename: storage_key_filename }) || new Storage({ credentials: JSON.parse(process.env.GOOGLE_STORAGE_KEY)});
-
-
+const storage = new Storage({ credentials: JSON.parse(process.env.GOOGLE_STORAGE_KEY)});
 
 const bucket = storage.bucket("healthcare-records");
 

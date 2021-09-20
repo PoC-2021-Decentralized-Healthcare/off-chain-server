@@ -4,15 +4,18 @@ const processFile = require("../middleware/upload");
 const { format } = require("util");
 const { Storage } = require("@google-cloud/storage");
 
-const storage = new Storage({ keyFilename: "./keys/google-cloud-key.json" });
+const storage_key_filename = process.cwd() + "/keys/google-cloud-key.json"
+
+const storage = new Storage({ keyFilename: storage_key_filename }) || new Storage({ credentials: JSON.parse(process.env.GOOGLE_STORAGE_KEY)});
+
+
+
 const bucket = storage.bucket("healthcare-records");
 
 const path = require('path')
 
 console.log()
 const upload = async (req, res) => {
-
-
 
   try {
     await processFile(req, res);

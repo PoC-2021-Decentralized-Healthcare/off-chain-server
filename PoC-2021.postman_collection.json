@@ -1,0 +1,206 @@
+{
+	"info": {
+		"_postman_id": "9d673501-72f7-48e0-ad91-f698e644e86a",
+		"name": "PoC 2021",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Production",
+			"item": [
+				{
+					"name": "Upload File",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/A474124/Downloads/DEREE_ΣΑΚΕΛΛΑΡΗΣ_ΧΡΗΣΤΟΣ_KALOS_ΠΟΔΟΣΦΑΙΡΟ.pdf"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://off-chain-storage-jtwbolwpua-uc.a.run.app/upload",
+							"protocol": "https",
+							"host": [
+								"off-chain-storage-jtwbolwpua-uc",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"upload"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Files",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://off-chain-storage-jtwbolwpua-uc.a.run.app/files",
+							"protocol": "https",
+							"host": [
+								"off-chain-storage-jtwbolwpua-uc",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"files"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get File",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://off-chain-storage-jtwbolwpua-uc.a.run.app/files/large_conferences_GSI.csv",
+							"protocol": "https",
+							"host": [
+								"off-chain-storage-jtwbolwpua-uc",
+								"a",
+								"run",
+								"app"
+							],
+							"path": [
+								"files",
+								"large_conferences_GSI.csv"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Upload File",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/A474124/Downloads/large_conferences_GSI.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"upload"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upload Large File",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/A474124/Downloads/large_conferences_GSI.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"upload"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Files",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/files",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"files"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get File",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/files/large_conferences_GSI.csv",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"files",
+						"large_conferences_GSI.csv"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
